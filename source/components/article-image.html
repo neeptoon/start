@@ -1,0 +1,11 @@
+<picture>
+    <source media="(min-width: 768px)"
+        srcset="./img/{{filename}}--dt.webp"
+        type="image/webp"/>
+    <source media="(max-width: 767px)"
+        srcset="./img/{{filename}}--mob.webp"
+        type="image/webp"/>
+    <source media="(min-width: 768px)"
+        srcset="./img/{{filename}}--dt.png"/>
+    <img class="article__image" src="./img/{{filename}}-mob.png" alt="{{alt}}">
+</picture>
